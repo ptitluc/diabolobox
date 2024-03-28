@@ -462,3 +462,20 @@ module arrange(panels=[for (i=[0:6]) true]) {
     }
   }
 }
+
+// ###########################################################################
+//                              SHORTCUTS
+// ready to use modules:
+//  * plain_box() : build a box from default variables
+// ###########################################################################
+
+module plain_box() {
+  arrange() {
+    diabolize_lr("left") db_panel("left_right");
+    diabolize_bt() db_panel("top_bottom");
+    diabolize_lr("right") db_panel("left_right");
+    diabolize_bt(bottom=false) db_panel("top_bottom");
+    diabolize_fb() db_panel("front_back");
+    diabolize_fb() db_panel("front_back");
+  }
+}
