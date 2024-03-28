@@ -30,7 +30,7 @@ height        = 11;    // length on Z axis
 thickness     = 2.4;   // panel thickness
 edge_offset   = 1.5;   // left/right panel offset for top and bottom edges
 corner_radius = 1;     // rounded top and bottom angle. 0 to disable.
-fit_clearance = 3;     // assembly tighteness
+fit_clearance = 0.3;     // assembly tighteness
 inner_dim     = true;  // are width, depth and height outer or inner lengths ?
 
 //// display variables
