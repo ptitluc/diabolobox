@@ -22,6 +22,7 @@ Diabolobox is an [OpenSCAD](https://openscad.org/) box building library with 3D 
     }
 	```	
 * handy optional **feets**.
+* optional **pillars** for printed circuit boards.
 
 ## How it works
 A box is a set of six panels which are connected together with rails and slides.
