@@ -95,7 +95,7 @@ There some other variables like this, please refer to [the source code](diabolob
 ## Projects using diabolobox
 
 I would be glad to add more projects here, feel free to add your own by editing this file and make a pull request.
-* https://github.com/ptitluc/diabolopi/
+* **[Diabolopi](https://github.com/ptitluc/diabolopi/)**: parametric Raspberry Pi cases.
 
 ## Contributing
  
