@@ -259,7 +259,7 @@ module diabolize_fb() {
 //
 // ***************************************************************************
 module foot() {
-  th_m = 1.2 * th - 0.25;
+  th_m = 1.1 * th - 0.25;
   rotate([180, 0, 0])
     translate([0, -th_m, -th_m - dt_height(th_m)])
     dove_tail(th_m, th_m);
@@ -269,20 +269,20 @@ module foot() {
 module feet_slots() {
   // feet slots
   f_off = 1.2 * off;
-  f_th = 1.2 * th;
+  f_th = 1.1 * th;
   dth = dt_height(f_th);
-  translate([f_off, 1.5 * f_th - 0.01, dth - 0.01])
+  translate([f_off,  f_th - 0.01, dth - 0.01])
     rotate([180, 0, 0])
-    dove_tail(f_th, 1.5 * f_th);
-  translate([ow - f_off - f_th, 1.5 * f_th - 0.01, dth - 0.01])
+    dove_tail(f_th, f_th);
+  translate([ow - f_off - f_th, f_th - 0.01, dth - 0.01])
     rotate([180, 0, 0])
-    dove_tail(f_th, 1.5 * f_th);
+    dove_tail(f_th, f_th);
   translate([ow - f_off - f_th, od + 0.01, dth - 0.01])
     rotate([180, 0, 0])
-    dove_tail(f_th, 1.5 * f_th);
+    dove_tail(f_th, f_th);
   translate([f_off, od + 0.01, dth - 0.01])
     rotate([180, 0, 0])
-    dove_tail(f_th, 1.5*f_th);
+    dove_tail(f_th, f_th);
 }
 
 // ***************************************************************************
