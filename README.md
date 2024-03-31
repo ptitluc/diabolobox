@@ -63,7 +63,7 @@ plain_box();
 
 ![capture of build a simple box in OpenSCAD](img/dbox_basic.webp)
 
-Here are some other variable you can use:
+Here are some other variables you can use:
 ```openscad
 edge_offset   = 1.5;   // left/right panel offset for top and bottom edges
 corner_radius = 1;     // rounded top and bottom angle. 0 to disable.
@@ -81,7 +81,7 @@ The connectors are added by applying a `diabolize_xx` module to the panel.
 
 here is a example on how to cut circle in the middle of a side panel :
 
-```
+```openscad
 diabolize_lr("left")
 difference() {
   db_panel("left_right");
