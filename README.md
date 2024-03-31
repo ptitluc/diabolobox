@@ -6,6 +6,7 @@ Diabolobox is an [OpenSCAD](https://openscad.org/) box building library with 3D 
 
 ![three pictures illustrating a raspberry pi case design and printed result](img/diabolobox_steps.webp "pimped diabolobox : a Raspberry Pi case")
 
+* **no screw, no glue** needed !
 * **flat printing** makes it easy to print and allows **complex** and **neat cuts** on any face of the box.
 * **strong joints** with the dovetail-like diabolo shape.
 * **scales very well** since everything is parametric. Want a micro box or a huge one ? You got it.
